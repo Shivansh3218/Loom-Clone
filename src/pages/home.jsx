@@ -5,6 +5,9 @@ function Home() {
   return (
    <>
    <Header/>
+   <h1>
+    Hello this is the home page
+   </h1>
    </>
   )
 }

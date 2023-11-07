@@ -4,7 +4,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header/header.jsx'
 import Routing from './components/Routes/index.jsx'
-import Login from './pages/login'
 
 function App() {
   return (
