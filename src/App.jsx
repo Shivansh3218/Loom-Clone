@@ -5,10 +5,14 @@ import './App.css'
 import Header from './components/Header/header.jsx'
 import Routing from './components/Routes/index.jsx'
 
+import { useLocation } from 'react-router-dom'
+
 function App() {
+  const location = useLocation()
+
   return (
     <>
-      <Header/>
+      {location.pathname !== '/login' && <Header/>}
       <Routing/>
     </>
   )

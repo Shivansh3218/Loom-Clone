@@ -4,6 +4,7 @@ import About from "../../pages/about";
 import usedCase from "../../pages/usedCase.jsx";
 import Home from "../../pages/home";
 import Login from "../Login/login.jsx";
+import Dashboard from "../../pages/Dashboard";
 
 const Routing = () => {
   return (
@@ -13,7 +14,8 @@ const Routing = () => {
       <Route path="/about" element={<About/>} />
       <Route path="/contact" element={<usedCase/>} />
       <Route path="/login" element={<Login/>} />
-      </Routes>
+    
+      <Route path="/dashboard" element={<Dashboard/>} />  </Routes>
     </>
   );
 }

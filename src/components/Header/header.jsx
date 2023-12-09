@@ -33,7 +33,7 @@ function header() {
 
   return (
     <>
-      <Header id="header_container">
+      <div id="header_container">
         <img
           id="head-logo"
           src="https://logowik.com/content/uploads/images/loom9320.jpg"
@@ -52,10 +52,10 @@ function header() {
             placement="bottom"
             arrow
           >
-            <MenuOutlined  style={{fontSize:"4vh", cursor:"pointer"}}/>
+            <MenuOutlined  style={{fontSize:"4vh", cursor:"pointer", color:"black"}}/>
           </Dropdown>
         </div>
-      </Header>
+      </div>
     </>
   );
 }
