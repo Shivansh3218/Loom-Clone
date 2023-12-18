@@ -4,7 +4,7 @@ import About from "../../pages/about";
 import usedCase from "../../pages/usedCase.jsx";
 import Home from "../../pages/home";
 import Login from "../Login/login.jsx";
-import Dashboard from "../../pages/Dashboard";
+import Library from "../Dashboard/Library/Library.jsx";
 
 const Routing = () => {
   return (
@@ -15,7 +15,8 @@ const Routing = () => {
       <Route path="/contact" element={<usedCase/>} />
       <Route path="/login" element={<Login/>} />
     
-      <Route path="/dashboard" element={<Dashboard/>} />  </Routes>
+      <Route path="/library" element={<Library/>} />  
+      </Routes>
     </>
   );
 }
